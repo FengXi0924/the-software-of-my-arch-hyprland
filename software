@@ -83,3 +83,6 @@ communication:
     yay -S wechat
     yay -S linuxqq
     
+github-desktop:
+
+    yay -S github-desktop-bin
