@@ -67,4 +67,13 @@ note:
 
     yay -S typora
 
+
+the starter of software:
+
+    rofi
+
+    sudo pacman -S rofi 
+    (if you want to use the icon of software then sudo pacman -S papirus-icon-theme,and when you open it,add the -show-icons and -icon-theme to let it show the icons of software)
+
+    
     
