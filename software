@@ -1,0 +1,70 @@
+fonts:
+
+    noto-fonts noto-fonts-cjk noto-fonts-emoji
+
+    sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
+
+
+input method:
+
+    fcitx5 fcitx5-chinese fcitx5-qt fcitx5-gtk fcitx5-configtool
+
+    sudo pacman -S fcitx5 fcitx5-chinese fcitx5-qt fcitx5-gtk fcitx5-configtool
+
+
+browser:
+
+    firefox-developer-edition  google-chrome-dev
+
+    sudo pacman -S firefox-developer-edition
+
+    yay -S google-chrome-dev
+
+
+package manager:
+
+    yay
+
+    sudo pacman -S base-devel git
+
+    git clone https://aur.archlinux.cn,direct
+
+    cd yay/
+
+    export GOPROXY=https://goproxy.cn,direct(for no internet magic)
+
+    makepkg -si
+
+proxy of internet:
+
+    v2raya
+
+    yay -S v2raya(it need sudo when you want to use)\
+
+programming:
+
+    vim vscode
+
+    sudo pacman -S code(the arch linux version of vscode)
+
+game:
+
+    steam
+
+    sudo pacman -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings(if you system is new)
+
+    sudo pacman -S steam
+
+wallpaper:
+
+    linux-wallpaper-engine(need to buy the steam wallpaper-engine)
+
+    yay -S linux-wallpaperengine-git
+
+note:
+
+    typora(need to buy)
+
+    yay -S typora
+
+    
