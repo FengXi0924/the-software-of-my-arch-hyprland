@@ -84,5 +84,5 @@ communication:
     yay -S linuxqq
     
 github-desktop:
-
+    sudo pacman -S gnome-keyring
     yay -S github-desktop-bin
